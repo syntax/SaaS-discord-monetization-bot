@@ -1,7 +1,7 @@
 {
   "company_name": "",
   "dir":"/root",
-  "price":""
+  "price":"",
   "shopify": {
     "APIKEY": "",
     "PASSWORD": "",
