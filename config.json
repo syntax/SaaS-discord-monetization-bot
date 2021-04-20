@@ -1,0 +1,18 @@
+{
+  "company_name": "",
+  "dir":"/root",
+  "shopify": {
+    "APIKEY": "",
+    "PASSWORD": "",
+    "MYSHOPIFY_STORE_URL": "e.g. tomholland.myshopify.com",
+    "DOMAIN": "e.g. tomh.codes"
+  },
+  "discord": {
+    "DISCTOKEN": "",
+    "IDS": {
+      "LOGCHANNEL_ID": 0,
+      "GUILD_ID": 0,
+      "EXCLUSIVEROLE_ID": 0
+    }
+  }
+}
