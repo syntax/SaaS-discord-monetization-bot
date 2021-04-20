@@ -214,9 +214,7 @@ async def topup(ctx):
 
                 yes = await client.wait_for('message', check=check)
                 if yes.content.lower() == 'yes':
-                    chars = [char for char in string.ascii_lowercase] + ['0', '1', '2', '3', '4', '5', '6', '7', '8',
-                                                                         '9', '0', '1', '2', '3', '4', '5', '6', '7',
-                                                                         '8', '9']
+                    chars = [char for char in string.ascii_lowercase] + [str(num) for num in list(range(0, 10))*2]
                     randnumber = ''.join(random.choice(chars) for i in range(20))
                     if author.name.replace(' ','').isalnum():
                         handle = f"subscription-topup-for-{author.name.replace(' ','-')}-{randnumber}"
