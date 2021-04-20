@@ -1,6 +1,6 @@
 # SaaS-discord-monetization-bot
 
-> Please be aware this has not been recently tested, please open an Issue if any problems occur and I will do my best to assist!
+> Please be aware this has not been recently tested; open an Issue if any problems occur and I will do my best to assist!
 
 Simple discord bot that allows you to monetization usage of your discord server following a SaaS business model. Features a shopify integration for safe payment processing and the associated analytics.
 
