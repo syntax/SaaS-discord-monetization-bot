@@ -17,8 +17,6 @@ client = commands.Bot(command_prefix='.',intents=intents)
 with open('config.json','r') as configfile:
     CONFIG = json.load(configfile)
 
-print(CONFIG)
-
 APIKEY = CONFIG['shopify']['APIKEY']
 PASSWORD = CONFIG['shopify']['PASSWORD']
 DISCTOKEN = CONFIG['discord']['DISCTOKEN']
