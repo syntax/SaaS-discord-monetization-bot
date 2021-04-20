@@ -226,7 +226,7 @@ async def topup(ctx):
                         "handle": f"{handle}",
                         "variants": [
                             {
-                                "price": "15.00",
+                                "price": f"{CONFIG['price']}",
                                 "inventory_management": "shopify",
                                 "inventory_quantity": "1",
                                 "requires_shipping": 'false'
@@ -356,7 +356,7 @@ async def subscribe(ctx):
         "handle" : f"{handle}",
         "variants":[
             {
-                "price":"20.00",
+                "price":f"{CONFIG['price']}",
                 "inventory_management":"shopify",
                 "inventory_quantity": "1",
                 "requires_shipping": 'false'
